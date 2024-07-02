@@ -1,9 +1,8 @@
 import asyncio
 from requests import get
 from pyrogram import enums, filters, idle
-from pyrogram.types import InlineKeyboardButton as IKB, InlineKeyboardMarkup as IKM
+from pyrogram.types import InlineKeyboardButton as IKB
 from pyrogram.handlers import MessageHandler
-from geopy.geocoders import Nominatim
 from geopy.distance import great_circle
 from ANNIEMUSIC import app
 
